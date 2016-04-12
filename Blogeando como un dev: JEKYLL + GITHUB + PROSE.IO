@@ -1,8 +1,7 @@
 ---
 published: true
 layout: post
-date: 
-  "Tue Apr 12 2016 14:00:00 GMT+0200 (CEST)": null
+date: 2014-09-18T12:00:00.000Z
 author: Start Bootstrap
 "header-img": "img/post-bg-05.jpg"
 ---
