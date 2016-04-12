@@ -1,10 +1,11 @@
 ---
-published: false
+published: true
 layout: post
-date: 2014-09-18T12:00:00.000Z
+date: {}
 author: Start Bootstrap
 "header-img": "img/post-bg-05.jpg"
 ---
+
 
 Llevo un tiempo pensando que a mi pagina de [desarrollador web][1],, darle más vida publicando diferentes experiencias que tengo día a día en el trabajo. 
  
