@@ -4,8 +4,8 @@ header-img: img/home-bg.jpg
 email: freelance@aitoribanez.com
 copyright_name: Your/Project/Corporate Name
 description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: "blog/"
-url: "http://aitiba.github.io/"
+baseurl: ""
+url: "http://aitiba.github.io/blog/"
 twitter_username: aitiba
 github_username:  aitiba
 facebook_username:  somosaitoribanez
