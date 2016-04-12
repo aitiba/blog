@@ -25,4 +25,19 @@ Llevaba un tiempo con ganas de publicar mi blog y subir contenido habitualmente.
 	- `cd blog blog`
 	- `jekyll serve`
 5. Tendrás en blog funcionando en local en [http://127.0.0.1:4000/startbootstrap-clean-blog-jekyll/](http://127.0.0.1:4000/startbootstrap-clean-blog-jekyll/)
+6. Editando el con [Prose.io](http://prose.io):
+	- Autorizate en [Prose.io](http://prose.io)
+	- Vete al proyecto.
+	- Abrir _config.yml
+	- Modificar baseurl a http://nombredeusuario.github.io/blog/. Guardar.
+	- El blog estara funcionando en http://nombredeusuario.github.io/blog/
+7. Crear / editar contenido:
+	- Ir a _posts.
+	- Crear página y añadir el contenido necesario.
+	- Clickar en el botón metatags y añadir lo siguiente:
+		- `layout: post`
+		- `author: nombredeusuario`
+		- `"header-img": "img/post-bg-05.jpg"`
+	- Guardar
+	- El post aparecera automáticamente en el listado del blog. :-)
 
