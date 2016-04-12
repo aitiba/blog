@@ -16,8 +16,7 @@ Llevaba un tiempo con ganas de publicar mi blog y subir contenido habitualmente.
 - Fork-ear [otro blog](https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll). [Markdown](http://daringfireball.net/projects/markdown/)
 - Después de fork-ear, ir a Settings y cambia el nombre del repositorio a blog.
 - Preparar el entorno:
-
-	-`sudo apt-get install libruby2.0 ruby2.0-dev`
+	- `sudo apt-get install libruby2.0 ruby2.0-dev`
 	- `sudo gem2.0 install jekyll-paginate`
 	- `sudo gem2.0 install jekyll-feed`
 	- `gem2.0 install jekyll`
