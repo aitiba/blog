@@ -17,8 +17,11 @@ Llevaba un tiempo con ganas de publicar mi blog y subir contenido habitualmente.
 - Después de fork-ear, ir a Settings y cambia el nombre del repositorio a blog.
  Preparar el entornoA:
 `sudo apt-get install libruby2.0 ruby2.0-dev`
+
 `sudo gem2.0 install jekyll-paginate`
+
 `sudo gem2.0 install jekyll-feed`
+
 `gem2.0 install jekyll`
 
 
