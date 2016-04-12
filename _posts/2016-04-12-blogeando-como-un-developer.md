@@ -13,16 +13,16 @@ Llevaba un tiempo con ganas de publicar mi blog y subir contenido habitualmente.
 
 
 
-* Fork-ear [otro blog](https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll).
-* Después de fork-ear, ir a Settings y cambia el nombre del repositorio a blog.
-* Preparar el entorno:
+1. Fork-ear [otro blog](https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll).
+2. Después de fork-ear, ir a Settings y cambia el nombre del repositorio a blog.
+3. Preparar el entorno:
 	- `sudo apt-get install libruby2.0 ruby2.0-dev`
 	- `sudo gem2.0 install jekyll-paginate`
 	- `sudo gem2.0 install jekyll-feed`
 	- `gem2.0 install jekyll`
-* Clonar el repositorio:
+4. Clonar el repositorio:
 	- `git clone https://github.com/nombredeusuario/blog`
 	- `cd blog blog`
 	- `jekyll serve`
-* Tendrás en blog funcionando en local en [http://127.0.0.1:4000/startbootstrap-clean-blog-jekyll/](http://127.0.0.1:4000/startbootstrap-clean-blog-jekyll/)
+5. Tendrás en blog funcionando en local en [http://127.0.0.1:4000/startbootstrap-clean-blog-jekyll/](http://127.0.0.1:4000/startbootstrap-clean-blog-jekyll/)
 
