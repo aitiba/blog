@@ -1,15 +1,15 @@
 # Site settings
-title: Clean Blog
+title: Aitor Ibañez-en txokoa
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
+email: freelance@aitoribanez.com
 copyright_name: Your/Project/Corporate Name
 description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: "http://aitiba.github.io/blog/"
-url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
-email_username:  your-email@yourdomain.com
+baseurl: "blog/"
+url: "http://aitiba.github.io/"
+twitter_username: aitiba
+github_username:  aitiba
+facebook_username:  somosaitoribanez
+email_username:  freelance@aitoribanez.com
 
 # Build settings
 markdown: kramdown
