@@ -1,10 +1,11 @@
 ---
 published: false
 layout: post
-date: 2014-09-18T12:00:00.000Z
+date: {}
 author: Start Bootstrap
 "header-img": "img/post-bg-05.jpg"
 ---
+
 
 
 Blogeando como un dev: JEKYLL + GITHUB + PROSE.IO
