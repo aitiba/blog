@@ -14,7 +14,7 @@ Llevaba un tiempo con ganas de publicar mi blog y subir contenido habitualmente.
 
 
 1. Fork-ear [otro blog](https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll).
-2. Después de fork-ear, ir a _Settings_ y cambia el nombre del repositorio a __blog__.
+2. Después de fork-ear, ir a _Settings_ y cambia el nombre del repositorio a _blog_.
 3. Preparar el entorno:
 	- `sudo apt-get install libruby2.0 ruby2.0-dev`
 	- `sudo gem2.0 install jekyll-paginate`
@@ -28,7 +28,7 @@ Llevaba un tiempo con ganas de publicar mi blog y subir contenido habitualmente.
 6. Editando el con [Prose.io](http://prose.io):
 	- Autorizate en [Prose.io](http://prose.io)
 	- Vete al proyecto.
-	- Abrir __config.yml__
+	- Abrir __config.yml_
 	- Modificar baseurl a http://nombredeusuario.github.io/blog/. Guardar.
 	- El blog estara funcionando en http://nombredeusuario.github.io/blog/
 7. Crear / editar contenido:
