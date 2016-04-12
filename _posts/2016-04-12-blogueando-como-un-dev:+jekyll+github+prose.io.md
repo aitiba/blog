@@ -2,7 +2,7 @@
 published: false
 layout: post
 date: 2014-09-18T12:00:00.000Z
-author: Aitor Ibañez
+author: Start Bootstrap
 "header-img": "img/post-bg-05.jpg"
 ---
 
