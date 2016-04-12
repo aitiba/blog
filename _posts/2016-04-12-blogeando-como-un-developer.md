@@ -14,7 +14,7 @@ Llevaba un tiempo con ganas de publicar mi blog y subir contenido habitualmente.
 
 
 1. Fork-ear [otro blog](https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll).
-2. Después de fork-ear, ir a __Settings__ y cambia el nombre del repositorio a __blog__.
+2. Después de fork-ear, ir a _Settings_ y cambia el nombre del repositorio a __blog__.
 3. Preparar el entorno:
 	- `sudo apt-get install libruby2.0 ruby2.0-dev`
 	- `sudo gem2.0 install jekyll-paginate`
