@@ -32,7 +32,7 @@ Llevaba un tiempo con ganas de publicar mi blog y subir contenido habitualmente.
 	- Modificar baseurl a http://nombredeusuario.github.io/blog/. Guardar.
 	- El blog estara funcionando en http://nombredeusuario.github.io/blog/
 7. Crear / editar contenido:
-	- Ir a __posts__.
+	- Ir a __posts_.
 	- Crear página y añadir el contenido necesario.
 	- Clickar en el botón metatags y añadir lo siguiente:
 		- `layout: post`
