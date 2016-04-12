@@ -10,7 +10,13 @@ twitter_username: aitiba
 github_username:  aitiba
 facebook_username:  somosaitoribanez
 email_username:  freelance@aitoribanez.com
-
+metadata:
+    _posts:
+      - name: "title"
+        field:
+          label: "Title"
+          element: "text"
+          value: "A awesome Headline!"
 # Build settings
 markdown: kramdown
 highlighter: rouge
