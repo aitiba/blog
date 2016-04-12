@@ -7,9 +7,6 @@ author: Start Bootstrap
 "header-img": "img/post-bg-05.jpg"
 ---
 
-Blogeando como un dev: JEKYLL + GITHUB + PROSE.IO
-===================
-
 Llevo un tiempo pensando que a mi pagina de [desarrollador web][1],, darle más vida publicando diferentes experiencias que tengo día a día en el trabajo. 
  
 
