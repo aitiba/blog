@@ -13,7 +13,7 @@ Llevaba un tiempo con ganas de publicar mi blog y subir contenido habitualmente.
 
 A continuación procedo a explicar el proceso para poder el entorno en marcha.
 
-1. Fork-ear [otro blog](https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll).
+Primero empezamos fork-ean un que este hecho en jekyll. Yo he usado [este](https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll) pero existen un montón como podemos comprobar en este enlace.
 2. Después de fork-ear, ir a _Settings_ y cambia el nombre del repositorio a _blog_.
 3. Preparar el entorno:
 	- `sudo apt-get install libruby2.0 ruby2.0-dev`
