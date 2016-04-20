@@ -25,19 +25,18 @@ Preparamos el entorno instalando los siguientes paquetes:
 - `gem2.0 install jekyll`
 
 Clonamos el repositorio para que podamos usarlo desde nuestro local en [http://127.0.0.1:4000/startbootstrap-clean-blog-jekyll/](http://127.0.0.1:4000/startbootstrap-clean-blog-jekyll/):
-	- `git clone https://github.com/nombredeusuario/blog`
-	- `cd blog blog`
-	- `jekyll serve`
-    
-    
+- `git clone https://github.com/nombredeusuario/blog`
+- `cd blog blog`
+- `jekyll serve`
+        
 Para tener un editor donde poder escribir y subir nuevo contenido recomiendo [Prose.io](http://prose.io).
 
 Estos son los pasos que necesitamos para poder usar nuestro blog jekyll recien creado con Prose.io:
-	- Autorizate en [Prose.io](http://prose.io)
-	- Vete al proyecto.
-	- Abrir __config.yml_
-	- Modificar baseurl a http://nombredeusuario.github.io/blog/. Guardar.
-	- El blog estara funcionando en http://nombredeusuario.github.io/blog/
+- Autorizate en [Prose.io](http://prose.io)
+- Iral proyecto.
+- Abrir __config.yml_
+- Modificar baseurl a http://nombredeusuario.github.io/blog/. Guardar.
+- El blog estara funcionando en http://nombredeusuario.github.io/blog/
     
 Por último, veremos como crear contenido a traves de prose.io:
 	- Ir a __posts_.
