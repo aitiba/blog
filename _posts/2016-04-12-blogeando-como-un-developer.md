@@ -21,14 +21,9 @@ Preparamos el entorno instalando los siguientes paquetes:
 
 - `sudo apt-get install libruby2.0 ruby2.0-dev`
 - `sudo gem2.0 install jekyll-paginate`
-- item
+- `sudo gem2.0 install jekyll-feed`
+- `gem2.0 install jekyll`
 
-
-	- `sudo apt-get install libruby2.0 ruby2.0-dev`
-	- `sudo gem2.0 install jekyll-paginate`
-	- `sudo gem2.0 install jekyll-feed`
-	- `gem2.0 install jekyll`
-    
 Clonamos el repositorio para que podamos usarlo desde nuestro local en [http://127.0.0.1:4000/startbootstrap-clean-blog-jekyll/](http://127.0.0.1:4000/startbootstrap-clean-blog-jekyll/):
 	- `git clone https://github.com/nombredeusuario/blog`
 	- `cd blog blog`
