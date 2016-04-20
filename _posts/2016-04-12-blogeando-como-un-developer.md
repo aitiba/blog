@@ -48,5 +48,5 @@ Por último, veremos como crear contenido a traves de prose.io:
 		- `layout: post`
 		- `author: nombredeusuario`
 		- `"header-img": "img/post-bg-05.jpg"`
-	- Guardar
-	- El post aparecera automáticamente en el listado del blog. :-)
+	- Guardar.
+	- El post aparecera automáticamente en la página principal del blog. :-)
