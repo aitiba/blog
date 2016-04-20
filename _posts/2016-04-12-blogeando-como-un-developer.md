@@ -38,7 +38,7 @@ Estos son los pasos que necesitamos para poder usar nuestro blog jekyll recien c
 	- Modificar baseurl a http://nombredeusuario.github.io/blog/. Guardar.
 	- El blog estara funcionando en http://nombredeusuario.github.io/blog/
     
-7. Crear / editar contenido:
+Por último, veremos como crear contenido a traves de prose.io:
 	- Ir a __posts_.
 	- Crear página y añadir el contenido necesario.
 	- Clickar en el botón metatags y añadir lo siguiente:
