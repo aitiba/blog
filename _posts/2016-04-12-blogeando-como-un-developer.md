@@ -42,11 +42,11 @@ Estos son los pasos que necesitamos para poder usar nuestro blog jekyll recien c
     
 Por último, veremos como crear contenido a traves de prose.io:
 
-	- Ir a __posts_.
-	- Crear página y añadir el contenido necesario.
-	- Clickar en el botón metatags (en la derecha de la pantalla)  y añadir lo siguiente:
-		- `layout: post`
-		- `author: nombredeusuario`
-		- `"header-img": "img/post-bg-05.jpg"`
-	- Guardar.
-	- El post aparecera automáticamente en la página principal del blog. :-)
+- Ir a __posts_.
+- Crear página y añadir el contenido necesario.
+- Clickar en el botón metatags (en la derecha de la pantalla)  y añadir lo siguiente:
+	- `layout: post`
+	- `author: nombredeusuario`
+	- `"header-img": "img/post-bg-05.jpg"`
+- Guardar.
+- El post aparecera automáticamente en la página principal del blog. :-)
