@@ -43,8 +43,8 @@ Por último, veremos como crear contenido a traves de prose.io:
 - Ir a **posts**.
 - Crear página y añadir el contenido necesario.
 - Clickar en el botón metatags (en la derecha de la pantalla)  y añadir lo siguiente:
-	- `layout: post`
-	- `author: nombredeusuario`
-	- `"header-img": "img/post-bg-05.jpg"`
+   - `layout: post`
+   - `author: nombredeusuario`
+   - `"header-img": "img/post-bg-05.jpg"`
 - Guardar.
 - El post aparecera automáticamente en la página principal del blog. :-)
