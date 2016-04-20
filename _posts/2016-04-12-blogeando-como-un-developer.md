@@ -35,14 +35,13 @@ Para tener un editor donde poder escribir y subir nuevo contenido recomiendo [Pr
 Estos son los pasos que necesitamos para poder usar nuestro blog jekyll recien creado con Prose.io:
 
 - Autorizate en [Prose.io](http://prose.io)
-- Iral proyecto.
+- Ir al proyecto.
 - Abrir __config.yml_
 - Modificar baseurl a http://nombredeusuario.github.io/blog/. Guardar.
 - El blog estara funcionando en http://nombredeusuario.github.io/blog/
     
 Por último, veremos como crear contenido a traves de prose.io:
-
-- Ir a __posts_.
+- Ir a **posts**.
 - Crear página y añadir el contenido necesario.
 - Clickar en el botón metatags (en la derecha de la pantalla)  y añadir lo siguiente:
 	- `layout: post`
