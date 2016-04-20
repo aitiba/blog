@@ -13,18 +13,22 @@ Llevaba un tiempo con ganas de publicar mi blog y subir contenido habitualmente.
 
 A continuación procedo a explicar el proceso para poder el entorno en marcha.
 
-Primero empezamos fork-ean un que este hecho en jekyll. Yo he usado [Clean Blog theme by Start Bootstrap](https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll) pero existen muchos más: [Notepad](https://github.com/hmfaysal/Notepad) o [más temas](http://jekyllthemes.org/)
-2. Después de fork-ear, ir a _Settings_ y cambia el nombre del repositorio a _blog_.
-3. Preparar el entorno:
+Primero empezamos fork-eando un tema que este hecho en jekyll. Yo he usado [Clean Blog theme by Start Bootstrap](https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll) pero existen muchos más: [Notepad](https://github.com/hmfaysal/Notepad) o [más temas](http://jekyllthemes.org/)
+
+Una vez fork-eado el repositorio, vamos a _Settings_ y cambiamos el nombre del repositorio a _blog_.
+
+Preparamos el entorno instalando los siguientes paquetes:
 	- `sudo apt-get install libruby2.0 ruby2.0-dev`
 	- `sudo gem2.0 install jekyll-paginate`
 	- `sudo gem2.0 install jekyll-feed`
 	- `gem2.0 install jekyll`
-4. Clonar el repositorio:
+    
+Clonamos el repositorio para que podamos usarlo desde nuestro local en [http://127.0.0.1:4000/startbootstrap-clean-blog-jekyll/](http://127.0.0.1:4000/startbootstrap-clean-blog-jekyll/):
 	- `git clone https://github.com/nombredeusuario/blog`
 	- `cd blog blog`
 	- `jekyll serve`
-5. Tendrás en blog funcionando en local en [http://127.0.0.1:4000/startbootstrap-clean-blog-jekyll/](http://127.0.0.1:4000/startbootstrap-clean-blog-jekyll/)
+    
+    
 6. Editando el con [Prose.io](http://prose.io):
 	- Autorizate en [Prose.io](http://prose.io)
 	- Vete al proyecto.
