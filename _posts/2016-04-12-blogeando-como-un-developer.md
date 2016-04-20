@@ -29,12 +29,15 @@ Clonamos el repositorio para que podamos usarlo desde nuestro local en [http://1
 	- `jekyll serve`
     
     
-6. Editando el con [Prose.io](http://prose.io):
+Para tener un editor donde poder escribir y subir nuevo contenido recomiendo [Prose.io](http://prose.io).
+
+Estos son los pasos que necesitamos para poder usar nuestro blog jekyll recien creado con Prose.io
 	- Autorizate en [Prose.io](http://prose.io)
 	- Vete al proyecto.
 	- Abrir __config.yml_
 	- Modificar baseurl a http://nombredeusuario.github.io/blog/. Guardar.
 	- El blog estara funcionando en http://nombredeusuario.github.io/blog/
+    
 7. Crear / editar contenido:
 	- Ir a __posts_.
 	- Crear página y añadir el contenido necesario.
