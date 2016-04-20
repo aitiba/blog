@@ -11,7 +11,7 @@ title: "Blogueando como un developer: Jekyll + GitHub + Prose.io"
 
 Llevaba un tiempo con ganas de publicar mi blog y subir contenido habitualmente. Para ello me he decantado por las github pages. De esta manera tendre un blog dentro de un repositorio de git sin necesidad de bases de datos.
 
-
+A continuación procedo a explicar el proceso para poder el entorno en marcha.
 
 1. Fork-ear [otro blog](https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll).
 2. Después de fork-ear, ir a _Settings_ y cambia el nombre del repositorio a _blog_.
@@ -40,4 +40,3 @@ Llevaba un tiempo con ganas de publicar mi blog y subir contenido habitualmente.
 		- `"header-img": "img/post-bg-05.jpg"`
 	- Guardar
 	- El post aparecera automáticamente en el listado del blog. :-)
-
