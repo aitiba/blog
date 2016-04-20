@@ -25,7 +25,6 @@ Preparamos el entorno instalando los siguientes paquetes:
 - `gem2.0 install jekyll`
 
 Clonamos el repositorio para que podamos usarlo desde nuestro local en [http://127.0.0.1:4000/startbootstrap-clean-blog-jekyll/](http://127.0.0.1:4000/startbootstrap-clean-blog-jekyll/):
-
 - `git clone https://github.com/nombredeusuario/blog`
 - `cd blog blog`
 - `jekyll serve`
