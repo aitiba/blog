@@ -7,9 +7,9 @@ author: aitiba
 "header-img": "img/post-bg-05.jpg"
 title: "Blogueando como un developer: Jekyll + GitHub + Prose.io"
 ---
-Llevaba un tiempo con ganas de publicar mi blog y subir contenido habitualmente. Para ello me he decantado por las github pages. De esta manera tendre un blog dentro de un repositorio de git sin necesidad de bases de datos.
+Llevaba un tiempo con ganas de publicar mi blog y subir contenido habitualmente. Para ello me he decantado por las github pages. De esta manera, tendré un blog dentro de un repositorio de git sin necesidad de bases de datos.
 
-A continuación procedo a explicar el proceso para poder el entorno en marcha.
+A continuación, procedo a explicar el proceso para poner el entorno en marcha.
 
 Primero empezamos fork-eando un tema que este hecho en jekyll. Yo he usado [Clean Blog theme by Start Bootstrap](https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll) pero existen muchos más: [Notepad](https://github.com/hmfaysal/Notepad) o [más temas](http://jekyllthemes.org/)
 
@@ -32,17 +32,17 @@ Para tener un editor donde poder escribir y subir nuevo contenido recomiendo [Pr
 
 Estos son los pasos que necesitamos para poder usar nuestro blog jekyll recien creado con Prose.io:
 
-- Autorizate en [Prose.io](http://prose.io)
+- Autorizarse en [Prose.io](http://prose.io)
 - Ir al proyecto.
 - Abrir __config.yml_
-- Modificar baseurl a http://nombredeusuario.github.io/blog/. Guardar.
+- Modificar baseurl a http://nombredeusuario.github.io/blog/ y guardar.
 - El blog estara funcionando en http://nombredeusuario.github.io/blog/
     
 Por último, veremos como crear contenido a traves de prose.io:
 
 - Ir a **posts**.
-- Crear página y añadir el contenido necesario.
-- Clickar en el botón metatags (en la derecha de la pantalla)  y añadir lo siguiente:
+- Crear una página y añadir el contenido necesario.
+- Clickar en el botón _metatags_ (en la derecha de la pantalla)  y añadir lo siguiente:
    - `layout: post`
    - `author: nombredeusuario`
    - `"header-img": "img/post-bg-05.jpg"`
