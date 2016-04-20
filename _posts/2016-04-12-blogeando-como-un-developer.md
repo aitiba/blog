@@ -19,8 +19,8 @@ Una vez fork-eado el repositorio, vamos a _Settings_ y cambiamos el nombre del r
 
 Preparamos el entorno instalando los siguientes paquetes:
 
-- item
-- item
+- `sudo apt-get install libruby2.0 ruby2.0-dev`
+- `sudo gem2.0 install jekyll-paginate`
 - item
 
 
