@@ -24,7 +24,7 @@ Preparamos el entorno instalando los siguientes paquetes:
 
 Clonamos el repositorio para que podamos usarlo desde nuestro local en [http://127.0.0.1:4000/startbootstrap-clean-blog-jekyll/](http://127.0.0.1:4000/startbootstrap-clean-blog-jekyll/):
 
-- `git clone https://github.com/nombredeusuario/blog`
+- `git clone https://github.com/usuario/blog`
 - `cd blog blog`
 - `jekyll serve`
         
@@ -35,8 +35,8 @@ Estos son los pasos que necesitamos para poder usar nuestro blog jekyll recien c
 - Autorizarse en [Prose.io](http://prose.io)
 - Ir al proyecto.
 - Abrir __config.yml_
-- Modificar baseurl a http://nombredeusuario.github.io/blog/ y guardar.
-- El blog estara funcionando en http://nombredeusuario.github.io/blog/
+- Modificar baseurl a http://usuario.github.io/blog/ y guardar.
+- El blog estara funcionando en http://usuario.github.io/blog/
     
 Por último, veremos como crear contenido a traves de prose.io:
 
