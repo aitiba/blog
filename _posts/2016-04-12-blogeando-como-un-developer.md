@@ -18,6 +18,7 @@ Primero empezamos fork-eando un tema que este hecho en jekyll. Yo he usado [Clea
 Una vez fork-eado el repositorio, vamos a _Settings_ y cambiamos el nombre del repositorio a _blog_.
 
 Preparamos el entorno instalando los siguientes paquetes:
+
 - item
 - item
 - item
