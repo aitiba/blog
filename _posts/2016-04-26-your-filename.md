@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: "A awesome Headline!"
-date: "2016-04-26T12:00:00.00Z"
+date: "2016-04-26"
 author: aitiba
 "header-img": "img/post-bg-05.jpg"
 ---
