@@ -2,8 +2,7 @@
 published: true
 layout: post
 title: Push notification con ionic I (Limited push)
-date: 
-  "Tue Apr 26 2016 00:15:00 GMT+0200 (CEST)": null
+date: 2016-04-26T00:15:00.000Z
 author: aitiba
 "header-img": "img/post-bg-05.jpg"
 ---
