@@ -26,9 +26,8 @@ Se recomienda iniciar con este modo para asegurarse que su aplicación se ha con
 Proceso a explicar como hacer funcionar las push notification en modo limited push.
 
 Empezamos creando la aplicación Ionic. Para ello, usaremos el starter *tab*:
-
-  - `ionic start myApp tabs`
-  - `cd tabs`
+- `ionic start myApp tabs`
+- `cd tabs`
 
 Instalamos los componentes necesarios:
   - `ionic add ionic-platform-web-client` (para comunicarnos con ionic.io)
