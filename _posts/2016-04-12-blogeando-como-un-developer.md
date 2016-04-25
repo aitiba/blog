@@ -3,7 +3,7 @@ published: true
 layout: post
 date: 
   "Tue Apr 18 2016 14:00:00 GMT+0200 (CEST)": null
-author: aitiba
+author: Aitor Ibañez
 "header-img": "img/post-bg-05.jpg"
 title: "Blogueando como un developer: Jekyll + GitHub + Prose.io"
 ---
