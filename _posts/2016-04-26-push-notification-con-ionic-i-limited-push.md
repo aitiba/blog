@@ -48,18 +48,18 @@ Ponemos la app en modo *development* para que sepa que queremos usar *limited pu
 
 Escribimos el siguiente código dentro de *app.js*:
   
-    .run(function($ionicPlatform) {
-      $ionicPlatform.ready(function() {
-        var push = new Ionic.Push({
-          "debug": true
-        });
+        .run(function($ionicPlatform) {
+          $ionicPlatform.ready(function() {
+            var push = new Ionic.Push({
+              "debug": true
+            });
 
-        push.register(function(token) {
-          // Log out your device token (Save this!)
-          console.log("Got Token:",token.token);
-        });
-      });
-    })
+            push.register(function(token) {
+              // Log out your device token (Save this!)
+              console.log("Got Token:",token.token);
+            });
+          });
+        })
 
 Creamos un perfil de seguridad dentro de la opción *push* de una aplicación en ionic.io. Clicamos en *Configure profile*. Después en *New Security Profile*. En *Profile name* ponemos *fake_push_profile*. En *type*, seleccionamos *Development*. Clicamos en *Create*.
 
