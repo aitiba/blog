@@ -47,7 +47,6 @@ Ponemos la app en modo development para que sepa que queremos usar *limited push
 - `ionic config set dev_push true`
 
 Escribimos el siguiente código dentro de *app.js*:
-
   ``` javascript
   .run(function($ionicPlatform) {
     $ionicPlatform.ready(function() {
