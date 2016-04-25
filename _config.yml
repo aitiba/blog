@@ -10,26 +10,6 @@ twitter_username: aitiba
 github_username:  aitiba
 facebook_username:  somosaitoribanez
 email_username:  freelance@aitoribanez.com
-prose:
-  siteurl: "http://blog.weinberg.me"
-  media: "images"
-  metadata:
-    _posts:
-      - name: "published"
-        field:
-          label: "Published"
-          element: "checkbox"
-          value: "true"
-      - name: "layout"
-        field:
-          label: "Layout"
-          element: "text"
-          value: "post"
-      - name: "title"
-        field:
-          label: "Title"
-          element: "text"
-          value: "A awesome Headline!"
 
 # Build settings
 markdown: kramdown
