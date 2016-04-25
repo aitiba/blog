@@ -8,7 +8,7 @@ baseurl: "/blog"
 url: "http://yourdomain.com"
 twitter_username: aitiba
 github_username:  aitiba
-email_username:  freelance@aitoribanez.com
+email_username:  kaixo@aitoribanez.com
 
 # Build settings
 markdown: kramdown
