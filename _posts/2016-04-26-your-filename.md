@@ -2,7 +2,8 @@
 published: true
 layout: post
 title: "A awesome Headline!"
-date: "2016-04-26 12:00 +0000"
+date: 
+  "Tue Apr 18 2016 14:00:00 GMT+0200 (CEST)": null
 author: aitiba
 "header-img": "img/post-bg-05.jpg"
 ---
