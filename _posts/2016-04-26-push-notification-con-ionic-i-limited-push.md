@@ -48,20 +48,20 @@ Ponemos la app en modo development para que sepa que queremos usar *limited push
 
 Escribimos el siguiente código dentro de *app.js*:
   
-``` javascript
-.run(function($ionicPlatform) {
-  $ionicPlatform.ready(function() {
-    var push = new Ionic.Push({
-      "debug": true
-    });
 
-    push.register(function(token) {
-      // Log out your device token (Save this!)
-      console.log("Got Token:",token.token);
+  .run(function($ionicPlatform) {
+    $ionicPlatform.ready(function() {
+      var push = new Ionic.Push({
+        "debug": true
+      });
+
+      push.register(function(token) {
+        // Log out your device token (Save this!)
+        console.log("Got Token:",token.token);
+      });
     });
-  });
-})
-```
+  })
+
 Creamos un perfil de seguridad dentro de la opción push de una aplicacion en ionic.io. Clicamos en *Configure profile*. Después en *New Security Profile*. En *Profile name* ponemos *fake_push_profile*. En *type*, seleccionamos *Development*. Clicamos en *Create*.
 
 Creamos un token para la aplicación de ionic.io. Nos logueamos en [apps.ionic.io](http://apps.ionic.io) y vamos a *Settings -> API Keys*. Dentro, vamos a *API Tokens*. Creamos un nuevo token y le damos un nombre. Después, clicamos en *show token* y copiamos el token para ser usado más tarde como API_TOKEN.
