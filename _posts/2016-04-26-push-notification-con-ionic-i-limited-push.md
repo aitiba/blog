@@ -16,7 +16,6 @@ Se recomienda iniciar con este modo para asegurarse que su aplicación se ha con
 
 
 > Estamos usando la API beta de push. Hace unas semanas, se cambio de la versión alpha a esta beta. Por lo que, la API push esta teniendo cambios constantes y **no es nada estable**. Estos pasos están probados para las siguientes versiones:
-
 - Cordova CLI: 5.4.1
 - Ionic Version: 1.3.0
 - Ionic CLI Version: 1.7.14
