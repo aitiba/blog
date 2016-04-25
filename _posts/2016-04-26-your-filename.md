@@ -1,7 +1,7 @@
 ---
-published: true
+published: false
 layout: post
-title: ""
+title: "A awesome Headline!"
 ---
 ## A New Post
 
