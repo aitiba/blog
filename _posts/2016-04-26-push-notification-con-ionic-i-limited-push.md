@@ -26,7 +26,7 @@ Se recomienda iniciar con este modo para asegurarse que la aplicación se ha con
 
 Procedo a explicar como hacer funcionar las push notifications en modo *limited push*.
 
-Empezamos creando la aplicación Ionic. Para ello, usaremos el starter *tab*:
+Empezamos creando una aplicación Ionic. Para ello, usaremos el starter *tab*:
 
 - `ionic start myApp tabs`
 - `cd tabs`
@@ -42,7 +42,7 @@ Conectamos la app con ionic.io:
 
 - `ionic io init`
 
-Ponemos la app en modo development para que sepa que queremos usar *limited push*:
+Ponemos la app en modo *development* para que sepa que queremos usar *limited push*:
 
 - `ionic config set dev_push true`
 
@@ -62,13 +62,13 @@ Escribimos el siguiente código dentro de *app.js*:
     });
   })
 
-Creamos un perfil de seguridad dentro de la opción push de una aplicacion en ionic.io. Clicamos en *Configure profile*. Después en *New Security Profile*. En *Profile name* ponemos *fake_push_profile*. En *type*, seleccionamos *Development*. Clicamos en *Create*.
+Creamos un perfil de seguridad dentro de la opción *push* de una aplicación en ionic.io. Clicamos en *Configure profile*. Después en *New Security Profile*. En *Profile name* ponemos *fake_push_profile*. En *type*, seleccionamos *Development*. Clicamos en *Create*.
 
 Creamos un token para la aplicación de ionic.io. Nos logueamos en [apps.ionic.io](http://apps.ionic.io) y vamos a *Settings -> API Keys*. Dentro, vamos a *API Tokens*. Creamos un nuevo token y le damos un nombre. Después, clicamos en *show token* y copiamos el token para ser usado más tarde como API_TOKEN.
 
-Ponemos el servidor ionic en marcha (`ionic serve`). Se abrirá un navegador en http://localhost:8100. Abrimos la consola (F11) y copiamos el device_token para ser usado en el siguiente paso como DEV_DEVICE_TOKEN.
+Ponemos el servidor ionic en marcha (`ionic serve`). Se abrirá un navegador en http://localhost:8100. Abrimos la consola (F12) y copiamos el device_token para ser usado en el siguiente paso como DEV_DEVICE_TOKEN.
 
-Para finalizar, probamos que se manda la notificación push. Cambiamos API_TOKEN y DEV_DEVICE_TOKEN por los datos correspondientes:
+Para finalizar, probamos que se manda la notificación push. Cambiamos API_TOKEN y DEV_DEVICE_TOKEN por los datos correspondientes y ejecutamos lo siguiente desde una consola:
 
       curl -X POST -H "Authorization: Bearer API_TOKEN" -d '{
           "tokens": ["DEV_DEVICE_TOKEN"],
