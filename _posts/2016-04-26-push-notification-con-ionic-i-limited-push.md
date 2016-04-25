@@ -35,6 +35,7 @@ Instalamos los componentes necesarios:
 
 - `ionic add ionic-platform-web-client` (para comunicarnos con ionic.io)
 - `ionic plugin add phonegap-plugin-push -variable SENDER_ID=(sender_id)`
+
 > El dato para (sender_id) se consigue haciendo un nuevo proyecto dentro de [Google Developers Console](https://cloud.google.com/console).
 
 Conectamos la app con ionic.io:
