@@ -15,7 +15,7 @@ Se recomienda iniciar con este modo para asegurarse que la aplicación se ha con
 - **Full push**: Se comunica con APN, GCM y perfiles de seguridad. Modo recomendado cuando te sientas cómoda con las *limited push*. Estamos en este modo cuando, *dev_push* esta a *false*.
 
 
-> Estamos usando la API beta de push. Hace unas semanas, se cambio de la versión alpha a esta beta. Por lo que, la API push esta teniendo cambios constantes y **no es nada estable**. Estos pasos están probados para las siguientes versiones:
+> Estamos usando la API beta de push. Hace unas semanas, se cambio de la versión alpha a esta beta. Por lo que, la API push esta teniendo cambios constantes y **no es nada estable**. Estos pasos están probados con las siguientes versiones:
 
 >- Cordova CLI: 5.4.1
 - Ionic Version: 1.3.0
@@ -24,7 +24,7 @@ Se recomienda iniciar con este modo para asegurarse que la aplicación se ha con
 - Node Version: v5.11.0
 
 
-Proceso a explicar como hacer funcionar las push notification en modo limited push.
+Procedo a explicar como hacer funcionar las push notifications en modo *limited push*.
 
 Empezamos creando la aplicación Ionic. Para ello, usaremos el starter *tab*:
 
