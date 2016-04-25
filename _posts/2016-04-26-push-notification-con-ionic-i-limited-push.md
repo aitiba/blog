@@ -2,6 +2,10 @@
 published: true
 layout: post
 title: Push notification con ionic I (Limited push)
+date: 
+  "Tue Apr 26 2016 00:15:00 GMT+0200 (CEST)": null
+author: aitiba
+"header-img": "img/post-bg-05.jpg"
 ---
 Existen dos modos de notificaciones push con ionic.io:
 
