@@ -9,10 +9,10 @@ author: aitiba
 ---
 Existen dos modos de notificaciones push con ionic.io:
 
-- **Limited push**: Este modo no pasa por la configuración de los APN, GCM, y perfiles de seguridad. Lo cual reduce en gran medida los pasos necesarios para ver una notificación en la aplicación. Además, tiene el beneficio de trabajar en un navegador o emulador. Estamos en este modo cuando, *dev_push* esta a *true*.
+- **Limited push**: Este modo no pasa por la configuración de los APN, GCM y perfiles de seguridad. Lo cual reduce en gran medida los pasos necesarios para ver una notificación en la aplicación. Además, tiene el beneficio de trabajar en un navegador o emulador. Estamos en este modo cuando, *dev_push* esta a *true*.
 Se recomienda iniciar con este modo para asegurarse que la aplicación se ha configurado correctamente antes de preocuparse por otras configuraciones.
 
-- **Full push**: Se comunica con APN, GCM y perfiles de seguridad. Modo recomendado cuando os sentais cómodas con las *limited push*. Estamos en este modo cuando, *dev_push* esta a *false*.
+- **Full push**: Se comunica con APN, GCM y perfiles de seguridad. Modo recomendado cuando os sintais cómodas con las *limited push*. Estamos en este modo cuando, *dev_push* esta a *false*.
 
 
 > Estamos usando la API beta de push. Hace unas semanas, se cambio de la versión alpha a esta beta. Por lo que, la API push esta teniendo cambios constantes y **no es nada estable**. Estos pasos están probados con las siguientes versiones:
@@ -48,7 +48,6 @@ Ponemos la app en modo *development* para que sepa que queremos usar *limited pu
 
 Escribimos el siguiente código dentro de *app.js*:
   
-
   .run(function($ionicPlatform) {
     $ionicPlatform.ready(function() {
       var push = new Ionic.Push({
