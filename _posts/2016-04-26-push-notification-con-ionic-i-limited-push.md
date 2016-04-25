@@ -16,8 +16,9 @@ Se recomienda iniciar con este modo para asegurarse que su aplicación se ha con
 
 
 > Estamos usando la API beta de push. Hace unas semanas, se cambio de la versión alpha a esta beta. Por lo que, la API push esta teniendo cambios constantes y **no es nada estable**. Estos pasos están probados para las siguientes versiones:
+
 - Cordova CLI: 5.4.1
--  Ionic Version: 1.3.0
+- Ionic Version: 1.3.0
 - Ionic CLI Version: 1.7.14
 - Ionic App Lib Version: 0.7.0
 - Node Version: v5.11.0
@@ -31,14 +32,17 @@ Empezamos creando la aplicación Ionic. Para ello, usaremos el starter *tab*:
 - `cd tabs`
 
 Instalamos los componentes necesarios:
+
 - `ionic add ionic-platform-web-client` (para comunicarnos con ionic.io)
 - `ionic plugin add phonegap-plugin-push -variable SENDER_ID=(sender_id)`
 > El dato para (sender_id) se consigue haciendo un nuevo proyecto dentro de [Google Developers Console](https://cloud.google.com/console).
 
 Conectamos la app con ionic.io:
+
 - `ionic io init`
 
 Ponemos la app en modo development para que sepa que queremos usar *limited push*:
+
 - `ionic config set dev_push true`
 
 Escribimos el siguiente código dentro de *app.js*:
