@@ -2,8 +2,8 @@
 published: true
 layout: post
 title: "A awesome Headline!"
-date: 2016-04-12T12:00:00.000Z
-author: Start Bootstrap
+date: "Tue Apr 26 2016 14:00:00 GMT+0200 (CEST)"
+author: aitiba
 "header-img": "img/post-bg-05.jpg"
 ---
 ## A New Post
